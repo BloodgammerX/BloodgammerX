@@ -1,0 +1,21 @@
+print("Enter your number:")
+a1 = str(input("Number1: "))
+a2 = str(input("Number2: "))
+op = str(input("Give me the Operator(+-*/): "))
+if a1 == "45" and a2 == "3" and op == "*":
+    print("The answer is= 5555")
+elif a1 == "56" and a2 == "9" and op == "+": 
+    print("The answer is= 77")
+elif a1 == "56" and a2 == "6" and op == "/":
+    print("The answer is= 4") 
+else:
+    b1 = int(a1)
+    b2 = int(a2)
+    if op == "+":
+        print("The answer is=",b1+b2)
+    elif op == "-":
+        print("The answer is=",b1-b2)
+    elif op == "*":
+        print("The answer is=",b1*b2)
+    else:
+        print("The answer is=", b1/b2)

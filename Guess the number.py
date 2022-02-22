@@ -1,5 +1,5 @@
 n = 18
-print("Guess the number")
+print("Guess the number between 1-100")
 guess = 9
 print(f"You have {guess} guesses")
 while(True):
@@ -20,4 +20,5 @@ while(True):
     else:
         print("You have won")
         break
-# Don't by seeing my code
+# Don't cheat by seeing my code
+#play by your self

@@ -19,3 +19,4 @@ else:
         print("The answer is=",b1*b2)
     else:
         print("The answer is=", b1/b2)
+ #A lite calculator

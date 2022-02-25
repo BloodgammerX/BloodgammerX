@@ -11,6 +11,7 @@ except exception as e:
     print("Give a valied number")
     print(e)
 def calculator(a,b,c):
+    """This takes only float number so don't give any string"""
     if c == "+":
         print(f"The answer is {a+b}")
     elif c == "-":
@@ -25,6 +26,7 @@ def calculator(a,b,c):
         print(f"The answer is {a%b}")
 calculator(a,b,c)
 def again():
+    """ This takes only string of lower case don't give any intiger and float or capital"""
     print("Do want to continue?")
     print("Enter 'y' for yes and 'n' for no")
     inpu = str(input())
